@@ -6,7 +6,7 @@ import datetime
 
 """ Intranetwork Device Scanner - convenient extension for GLPI
 
-Useful when user doesn't want to physically walk from machine to another to do scan of a computer.
+Useful when user doesn't want to physically walk from machine to another to do scan of one or many computers.
 It gives basic information about device, such as:
     - OS
     - mac address
