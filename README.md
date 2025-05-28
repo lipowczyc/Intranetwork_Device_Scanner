@@ -1,6 +1,4 @@
-""" Intranetwork Device Scanner - convenient extension for GLPI
-
-Useful when user doesn't want to physically walk from machine to another to do scan of a computer.
+""" Useful when user doesn't want to physically walk from machine to another to do scan of one or many computers.
 It gives basic information about device, such as:
     - OS
     - mac address
@@ -20,7 +18,8 @@ To successfully perform a scan, on computer this script is running in, administr
 addition to installed Python 3.12 and nmap.
 Scan is performed with nmap3 module, and it gives JSON file as an output of nmap os scan. 
 
-After extracting certain data, another JSON file is created based on pattern of files which GLP can import and read.
+After extracting certain data, another JSON file is created based on pattern of files which GLPI can import and read.
 
+Author: Sylwia Postnikoff
 """
 
